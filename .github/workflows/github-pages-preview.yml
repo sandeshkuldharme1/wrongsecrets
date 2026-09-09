@@ -22,7 +22,6 @@ concurrency:
 env:
   NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
 
-
 jobs:
   generate-static-preview:
     runs-on: ubuntu-latest
